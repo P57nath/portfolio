@@ -321,7 +321,7 @@ main {
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+/* .sidebar.active { max-height: 405px; } */
 
 .sidebar-info {
   position: relative;
@@ -334,6 +334,12 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+
+}
+.avatar-box img {
+  display: block;
+  object-fit: cover;
+  border-radius: inherit;
 }
 
 .info-content .name {
@@ -347,8 +353,8 @@ main {
 .info-content .title {
   color: var(--white-1);
   background: var(--onyx);
-  font-size: var(--fs-3);
-  letter-spacing: 2px;
+  font-size: var(--fs-8);
+  letter-spacing: 0.5px;
   font-weight: var(--fw-300);
   width: max-content;
   padding: 3px 12px;
@@ -415,6 +421,10 @@ main {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.info-content{
+  padding: 8px;
 }
 
 .contact-info {
