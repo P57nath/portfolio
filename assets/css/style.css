@@ -354,6 +354,11 @@ main {
   border-radius: 8px;
 }
 
+.info-content .title span {
+  display: block;
+  line-height: 1.1;
+}
+
 .info_more-btn {
   position: absolute;
   top: -15px;
