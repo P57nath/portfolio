@@ -357,6 +357,7 @@ main {
 .info-content .title span {
   display: block;
   line-height: 1.1;
+  color: hsl(35, 100%, 68%);
 }
 
 .info_more-btn {
@@ -843,6 +844,12 @@ main {
 
 .skills-list { padding: 20px; }
 
+/* Computer skills values use the same accent as the timeline 'Running' label */
+.computer-skills .title-wrapper data {
+  color: var(--vegas-gold);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-300);
+}
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 
