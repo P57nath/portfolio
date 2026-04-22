@@ -321,7 +321,7 @@ main {
   transition: var(--transition-2);
 }
 
-/* .sidebar.active { max-height: 405px; } */
+.sidebar.active { max-height: 500px; }
 
 .sidebar-info {
   position: relative;
@@ -1381,7 +1381,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .info_more-btn ion-icon { display: none; }
 
-  .separator { margin: 32px 0; }
+  .separator { margin: 20px 0; }
 
   .contacts-list { gap: 20px; }
 
