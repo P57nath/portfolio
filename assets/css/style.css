@@ -1903,3 +1903,43 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/*-----------------------------------*\
+  #HIGHLIGHTS LIST VIEW
+\*-----------------------------------*/
+
+.highlights-list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.highlights-list-view .blog-post-item > a {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+.highlights-list-view .blog-banner-box {
+  height: 210px;
+}
+
+@media (min-width: 768px) {
+  .highlights-list-view .blog-post-item > a {
+    grid-template-columns: minmax(280px, 360px) 1fr;
+    align-items: stretch;
+  }
+
+  .highlights-list-view .blog-banner-box {
+    height: 100%;
+    min-height: 220px;
+    border-radius: 12px 0 0 12px;
+  }
+
+  .highlights-list-view .blog-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+}
